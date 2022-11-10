@@ -1,8 +1,8 @@
-import { MyDatabaseClassic } from "./db/my-database-classic";
+import { MyDatabaseModule } from "./db/my-database-module";
 
 import "./module_a";
 
-const db = MyDatabaseClassic.getInstance();
+const db = MyDatabaseModule;
 
 db.add({ name: "John Doe", age: 20 });
 
